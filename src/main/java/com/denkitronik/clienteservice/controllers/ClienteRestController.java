@@ -134,7 +134,7 @@ public class ClienteRestController {
 		}
 
 		try {
-
+			// Comentario de prueba para mirar cosas
 			clienteActual.setApellido(cliente.getApellido());
 			clienteActual.setNombre(cliente.getNombre());
 			clienteActual.setEmail(cliente.getEmail());
