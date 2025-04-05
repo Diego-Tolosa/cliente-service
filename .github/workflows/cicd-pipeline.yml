@@ -89,7 +89,8 @@ jobs:
           docker push diegotolosasanchez/pipelineci-cd:latest
 
   deploy:
-
+    # Agregar el if: false para no usar mis credenciales
+    if: false
     needs: build-and-publish
     runs-on: ubuntu-latest
 
